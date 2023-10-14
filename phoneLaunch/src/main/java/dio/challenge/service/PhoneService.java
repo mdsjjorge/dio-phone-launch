@@ -1,4 +1,11 @@
 package dio.challenge.service;
 
-public class PhoneService {
+public interface PhoneService {
+
+    public String call (String phoneNumber);
+
+    public String answerCall (Boolean yesNo);
+
+    public String startVoicemail (Boolean yesNo);
+
 }
